@@ -15,16 +15,16 @@ namespace Backpack.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult AddTask()
         {
             ViewData["Message"] = "Your application description page.";
 
             return View();
         }
 
-        public IActionResult Contact()
+        public IActionResult TaskList()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "TaskList";
 
             return View();
         }
